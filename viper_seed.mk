@@ -16,7 +16,7 @@
 $(call inherit-product, device/google/seed/full_seed.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/ion/config/common_full_phone.mk)
+$(call inherit-product, vendor/viper/config/common.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
